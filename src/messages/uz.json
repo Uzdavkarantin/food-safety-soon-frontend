@@ -1,0 +1,55 @@
+{
+  "site": {
+    "name": "Oziq-ovqat mahsulotlari xavfsizligi qo'mitasi",
+    "skip": "Asosiy kontentga o'tish"
+  },
+  "theme": {
+    "toLight": "Yorug' rejim",
+    "toDark": "Tungi rejim"
+  },
+  "locale": {
+    "label": "Til",
+    "uz": "O'zbekcha",
+    "ru": "Русский",
+    "en": "English"
+  },
+  "hero": {
+    "badge": "Tez orada",
+    "title": "Rasmiy veb-sayt ishga tushirilmoqda",
+    "subtitle": "Yangi raqamli platforma",
+    "text": "Oziq-ovqat mahsulotlari xavfsizligi qo'mitasining yangi platformasi fitosanitariya, veterinariya va sanitariya nazoratini yagona raqamli tizimi.",
+    "contactCta": "Bog'lanish"
+  },
+  "countdown": {
+    "label": "Ishga tushirishgacha",
+    "days": "kun",
+    "hours": "soat",
+    "minutes": "daqiqa",
+    "seconds": "soniya"
+  },
+  "features": {
+    "title": "Platforma imkoniyatlari",
+    "items": [
+      {
+        "title": "Reyestrga a'zo bo'ling",
+        "text": "Eksportyor, fermer, qadoqlovchi va boshqa biznes operator sifatida onlayn ro'yxatdan o'ting."
+      },
+      {
+        "title": "Sertifikatni onlayn oling",
+        "text": "Veterinariya va sanitariya hujjatlarini raqamli shaklda rasmiylashtiring hamda haqiqiyligini bir zumda tekshiring."
+      },
+      {
+        "title": "Bitta joydan xizmat oling",
+        "text": "Fitosanitariya, veterinariya va boshqa sanitariya nazorati endi yagona tizimda."
+      }
+    ]
+  },
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan"
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "text": "Kechirasiz, siz qidirayotgan sahifa mavjud emas.",
+    "home": "Bosh sahifaga qaytish"
+  }
+}

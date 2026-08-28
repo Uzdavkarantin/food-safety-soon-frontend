@@ -1,0 +1,55 @@
+{
+  "site": {
+    "name": "Committee for Food Safety",
+    "skip": "Skip to main content"
+  },
+  "theme": {
+    "toLight": "Light mode",
+    "toDark": "Dark mode"
+  },
+  "locale": {
+    "label": "Language",
+    "uz": "O'zbekcha",
+    "ru": "Русский",
+    "en": "English"
+  },
+  "hero": {
+    "badge": "Coming soon",
+    "title": "The official website is launching soon",
+    "subtitle": "A new digital platform",
+    "text": "The new platform of the Committee for Food Safety unifies phytosanitary, veterinary and sanitary controls into a single digital system.",
+    "contactCta": "Contact"
+  },
+  "countdown": {
+    "label": "Until launch",
+    "days": "days",
+    "hours": "hrs",
+    "minutes": "min",
+    "seconds": "sec"
+  },
+  "features": {
+    "title": "Platform capabilities",
+    "items": [
+      {
+        "title": "Join the registry",
+        "text": "Register online as an exporter, farmer, packer or other business operator."
+      },
+      {
+        "title": "Get certificates online",
+        "text": "Issue veterinary and sanitary documents digitally and verify their authenticity instantly."
+      },
+      {
+        "title": "One place for every service",
+        "text": "Phytosanitary, veterinary and other sanitary controls are now in one system."
+      }
+    ]
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "Sorry, the page you are looking for does not exist.",
+    "home": "Back to home"
+  }
+}
