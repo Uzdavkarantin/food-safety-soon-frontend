@@ -3,17 +3,24 @@ function resolveUrl() {
   // Vercel provides this at build & runtime (host only, no protocol)
   if (process.env.VERCEL_PROJECT_PRODUCTION_URL)
     return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
-  return "https://food-safety.uz";
+  return "https://ai.food-safety.uz";
 }
 
 export const siteConfig = {
   url: resolveUrl(),
-  telegramBot: "@food_safety_robot",
-  telegramUrl: "https://t.me/food_safety_robot",
+  cabinetUrl: "https://cabinet.karantin.uz",
+  hotline: "1288",
   contactEmail: "info@food-safety.uz", // TODO(content): real address
   contactPhone: "+998 71 000 00 00", // TODO(content): real phone
-  // TODO(content): confirm launch date, or set to null to hide the countdown
-  launchDate: "2026-10-01T09:00:00+05:00" as string | null,
+  laws: [
+    { href: "https://lex.uz/docs/-7789403" },
+    { href: "https://lex.uz/docs/-7158604" },
+    { href: "https://lex.uz/docs/-8214387" },
+    {
+      href: "https://anhor.uz/uz/news/ijtimoiy-loyihalar-uchun-ai-infratuzilmasidan-bepul-foydalanish-tartibi-belgilandi",
+    },
+  ],
+  lawsAllUrl: "https://lex.uz",
   social: {
     telegram: "https://t.me/food_safety_uzb",
     facebook: "https://www.facebook.com/foodsafetyuzb",

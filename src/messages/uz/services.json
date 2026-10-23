@@ -1,0 +1,1336 @@
+{
+  "common": {
+    "breadcrumbLabel": "Yo'l",
+    "home": "Bosh sahifa",
+    "services": "Xizmatlar",
+    "statusLabel": "Ishlamoqda",
+    "howTitle": "Qanday ishlaydi",
+    "forWhoTitle": "Kim uchun",
+    "basisTitle": "Asos",
+    "otherTitle": "Boshqa xizmatlar",
+    "allServices": "Barcha 12 xizmat →",
+    "helpTitle": "Savol bormi?",
+    "helpText": "Ishonch telefoni {phone} — AI Call Center kecha-yu kunduz javob beradi.",
+    "disclaimer": "Natija tavsiyaviy. Yakuniy qarorni Qo'mita mutaxassisi qabul qiladi."
+  },
+  "items": {
+    "sertifikat": {
+      "name": "AI Sertifikat",
+      "card": "Sertifikat bo'yicha savolga 24/7 javob beradi. Kerakli hujjat va havolalarni ko'rsatadi.",
+      "lead": "Sertifikat bo'yicha savolingizni yozing. Tizim qonun va qoidalardan javob topadi, kerakli hujjatlar ro'yxatini va havolalarni ko'rsatadi.",
+      "form": {
+        "title": "Savol bering",
+        "submit": "Javob olish",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "savol",
+            "label": "Savolingiz",
+            "type": "textarea",
+            "value": "Turkiyaga quritilgan o'rik eksport qilish uchun qanday sertifikat kerak?"
+          },
+          {
+            "id": "hujjat",
+            "label": "Hujjat turi",
+            "type": "select",
+            "options": [
+              "Bilmayman — tizim aniqlasin",
+              "Fitosanitar sertifikat",
+              "Veterinariya sertifikati",
+              "Muvofiqlik sertifikati",
+              "Gigiyenik xulosa"
+            ]
+          },
+          {
+            "id": "kim",
+            "label": "Siz kimsiz",
+            "type": "select",
+            "options": [
+              "Eksportyor",
+              "Importyor",
+              "Ishlab chiqaruvchi",
+              "Inspektor"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Javob (namuna)",
+        "badge": "Fitosanitar sertifikat",
+        "blocks": [
+          {
+            "kind": "text",
+            "paragraphs": [
+              "Quritilgan o'rikni Turkiyaga eksport qilish uchun <b>fitosanitar sertifikat</b> kerak. Uni Qo'mitaning hududiy karantin inspeksiyasi beradi.",
+              "<b>Kerakli hujjatlar:</b> eksport shartnomasi, invoys, laboratoriya xulosasi (aflatoksin va pestitsid qoldig'i), yuk joylash joyi haqida ma'lumot.",
+              "<b>Qayerdan:</b> ariza E-Fito tizimi orqali beriladi. Natija ePhyto formatida Turkiya tomoniga elektron yuboriladi."
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Muddat: 1 ish kuni",
+            "text": "Hujjatlar to'liq bo'lsa, sertifikat bir ish kunida beriladi."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "E'tibor bering",
+            "text": "Turkiya 2026-yildan quritilgan mevada oltingugurt (SO₂) me'yorini kuchaytirdi. Laboratoriya xulosasida bu ko'rsatkich bo'lishi kerak."
+          },
+          {
+            "kind": "pills",
+            "items": [
+              "E-Fito tizimi →",
+              "Hujjatlar ro'yxati →",
+              "Turkiya talablari →"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Savol yoziladi",
+          "text": "Oddiy tilda, xuddi mutaxassisga yozgandek."
+        },
+        {
+          "title": "Tizim javob topadi",
+          "text": "Qonun, reglament va Qo'mita qoidalaridan tegishli joyni oladi."
+        },
+        {
+          "title": "Javob va havolalar",
+          "text": "Qisqa javob, hujjatlar ro'yxati va rasmiy manbaga havola."
+        }
+      ],
+      "forWho": "Eksportyor, importyor va ishlab chiqaruvchilar. Inspektorlar uchun ham tez qo'llanma.",
+      "basis": "Karantin, veterinariya va sanitariya qonunchiligi, texnik reglamentlar, Qo'mita buyruqlari."
+    },
+    "call-center": {
+      "name": "AI Call Center",
+      "card": "1288 ishonch telefoniga qo'ng'iroqlarga darhol javob beradi. Murakkab savolni mutaxassisga ulaydi.",
+      "lead": "1288 ishonch telefoniga qo'ng'iroq qilganda birinchi javobni sun'iy intellekt beradi. Oddiy savolga darhol javob, murakkab savolni mutaxassisga ulaydi.",
+      "form": {
+        "title": "Qo'ng'iroq namunasi",
+        "submit": "Namunani ko'rish",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "til",
+            "label": "Til",
+            "type": "select",
+            "options": [
+              "O'zbek",
+              "Rus",
+              "Qoraqalpoq"
+            ]
+          },
+          {
+            "id": "mavzu",
+            "label": "Mavzu",
+            "type": "select",
+            "options": [
+              "Shikoyat",
+              "Sertifikat",
+              "Import",
+              "Boshqa"
+            ]
+          },
+          {
+            "id": "vaqt",
+            "label": "Vaqt",
+            "type": "select",
+            "options": [
+              "Ish vaqti",
+              "Tungi vaqt",
+              "Dam olish kuni"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Suhbat (namuna)",
+        "badge": "Javob vaqti: 4 soniya",
+        "blocks": [
+          {
+            "kind": "chat",
+            "lines": [
+              {
+                "kind": "citizen",
+                "who": "Fuqaro",
+                "text": "Assalomu alaykum. Do'kondan olgan sutning muddati o'tgan ekan. Qayerga murojaat qilaman?"
+              },
+              {
+                "kind": "ai",
+                "who": "AI operator",
+                "text": "Assalomu alaykum. Murojaatingiz qabul qilindi. Do'kon nomi va manzilini ayting. Chekni saqlab qoling — inspektor 1 ish kuni ichida bog'lanadi."
+              },
+              {
+                "kind": "citizen",
+                "who": "Fuqaro",
+                "text": "Chilonzor, 12-kvartal, \"Baraka\" do'koni."
+              },
+              {
+                "kind": "ai",
+                "who": "AI operator",
+                "text": "Rahmat. Murojaat raqami: 1288-048213. SMS yubordim. Toshkent shahar sanitariya nazorati bo'limiga yo'naltirildi."
+              }
+            ]
+          },
+          {
+            "kind": "tags",
+            "items": [
+              {
+                "tone": "red",
+                "label": "Mavzu: Shikoyat"
+              },
+              {
+                "tone": "blue",
+                "label": "Hudud: Toshkent, Chilonzor"
+              },
+              {
+                "tone": "slate",
+                "label": "Yo'naltirildi: Sanitariya nazorati"
+              },
+              {
+                "tone": "blue",
+                "label": "Til: o'zbek"
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Mutaxassisga ulash",
+            "text": "Agar fuqaro so'rasa yoki savol murakkab bo'lsa, qo'ng'iroq jonli operatorga o'tadi. Suhbat matni operatorga tayyor boradi."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Qo'ng'iroq qabul qilinadi",
+          "text": "1288 raqamiga istalgan vaqtda, istalgan tilda."
+        },
+        {
+          "title": "Nutq matnga aylantiriladi",
+          "text": "Tizim savolni tushunadi, mavzu va hududni aniqlaydi."
+        },
+        {
+          "title": "Javob yoki ulanish",
+          "text": "Oddiy savolga darhol javob. Murakkab savol — mutaxassisga."
+        }
+      ],
+      "forWho": "Fuqarolar va tadbirkorlar. Qo'mita operatorlari uchun — oddiy qo'ng'iroqlar yukini kamaytiradi.",
+      "basis": "Ishonch telefoni to'g'risidagi nizom, murojaatlar to'g'risidagi qonun."
+    },
+    "murojaatlar": {
+      "name": "AI Murojaatlar",
+      "card": "Murojaatni o'qiydi, turini aniqlaydi va to'g'ri bo'limga yuboradi.",
+      "lead": "Telegram, sayt, 1288 va pochta orqali kelgan murojaatlarni tizim o'qiydi. Turini, hududini va ustuvorligini aniqlaydi, mas'ul bo'limga yuboradi.",
+      "form": {
+        "title": "Murojaatni tasniflash",
+        "submit": "Tasniflash",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "murojaat",
+            "label": "Murojaat matni",
+            "type": "textarea",
+            "value": "Samarqand shahridagi 14-bog'chada bolalarga berilgan ovqatdan 5 nafar bola zaharlandi. Tekshiruv o'tkazishingizni so'rayman."
+          },
+          {
+            "id": "kanal",
+            "label": "Qayerdan keldi",
+            "type": "select",
+            "options": [
+              "Telegram bot",
+              "Sayt",
+              "1288",
+              "Pochta",
+              "my.gov.uz"
+            ]
+          },
+          {
+            "id": "ariza",
+            "label": "Murojaat beruvchi",
+            "type": "select",
+            "options": [
+              "Fuqaro",
+              "Tadbirkor",
+              "Davlat organi"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Tasnif (namuna)",
+        "badge": "Ustuvorlik: Yuqori",
+        "blocks": [
+          {
+            "kind": "tags",
+            "items": [
+              {
+                "tone": "red",
+                "label": "Tur: Shikoyat"
+              },
+              {
+                "tone": "slate",
+                "label": "Yo'nalish: Sanitariya-epidemiologiya"
+              },
+              {
+                "tone": "blue",
+                "label": "Hudud: Samarqand shahri"
+              },
+              {
+                "tone": "blue",
+                "label": "Obyekt: 14-bog'cha"
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "Mas'ul: Samarqand shahar sanitariya nazorati",
+            "text": "Javob muddati: 1 kun. Bolalar sog'lig'i — eng yuqori ustuvorlik. Rahbarga ham xabar yuborildi."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "O'xshash murojaat: 2 ta (7 kun ichida)",
+            "text": "Shu bog'cha haqida 18.10 va 21.10 kunlari ham shikoyat kelgan. Tizim ularni bitta ishga bog'ladi."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Fuqaroga javob yuborildi",
+            "text": "\"Murojaatingiz qabul qilindi, raqami 2026-10-23-0912. Inspektor 1 kun ichida bog'lanadi.\""
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "AI Oshxona bilan bog'landi",
+            "text": "14-bog'cha oshxonasi kamerasidan oxirgi 3 kunlik yozuv inspektorga tayyorlandi."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Murojaat kelib tushadi",
+          "text": "Istalgan kanaldan: bot, sayt, telefon, pochta."
+        },
+        {
+          "title": "Tizim o'qiydi va tasniflaydi",
+          "text": "Tur, hudud, obyekt va ustuvorlik avtomatik aniqlanadi."
+        },
+        {
+          "title": "Mas'ulga yo'naltiriladi",
+          "text": "To'g'ri bo'limga, muddat bilan. Fuqaroga javob xati ketadi."
+        }
+      ],
+      "forWho": "Qo'mita devonxonasi va hududiy bo'limlar. Fuqaro uchun — tezroq javob.",
+      "basis": "Jismoniy va yuridik shaxslarning murojaatlari to'g'risidagi qonun, Qo'mita ish yuritish qoidalari."
+    },
+    "fermer": {
+      "name": "AI Fermer",
+      "card": "Zararkunanda qachon ko'payishini oldindan aytadi. Ogohlantirish fermerga telefoniga boradi.",
+      "lead": "Dalangizda zararkunanda qachon ko'payishini tizim oldindan aytadi. Feromon tutqich va ob-havo ma'lumoti tahlil qilinadi. Ogohlantirish Telegram orqali keladi.",
+      "form": {
+        "title": "Zararkunanda prognozi",
+        "submit": "Prognozni ko'rish",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "viloyat",
+            "label": "Viloyat",
+            "type": "select",
+            "options": [
+              "Farg'ona",
+              "Andijon",
+              "Namangan",
+              "Toshkent",
+              "Samarqand",
+              "Buxoro",
+              "Qashqadaryo",
+              "Surxondaryo",
+              "Xorazm"
+            ]
+          },
+          {
+            "id": "tuman",
+            "label": "Tuman",
+            "type": "select",
+            "options": [
+              "Quva",
+              "Farg'ona",
+              "Oltiariq",
+              "Rishton",
+              "Bag'dod"
+            ]
+          },
+          {
+            "id": "ekin",
+            "label": "Ekin",
+            "type": "select",
+            "options": [
+              "Paxta",
+              "Bug'doy",
+              "Olma",
+              "Uzum",
+              "Pomidor",
+              "Kartoshka"
+            ]
+          },
+          {
+            "id": "maydon",
+            "label": "Dala maydoni (gektar)",
+            "type": "number",
+            "value": "12"
+          }
+        ]
+      },
+      "result": {
+        "title": "7 kunlik prognoz (namuna)",
+        "badge": "Quva tumani · Paxta",
+        "blocks": [
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "Ko'sak qurti — yuqori xavf",
+            "text": "5–7 kun ichida ko'payish kutilmoqda. Tutqichda 3 kunda 48 ta kapalak (me'yor: 20). Dalani ko'zdan kechiring."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "O'rgimchakkana — o'rta xavf",
+            "text": "Issiq va quruq havo unga qulay. Barg orqasini tekshiring."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Shira — past xavf",
+            "text": "Hozircha xavf yo'q. Keyingi tekshiruv 5 kundan keyin."
+          },
+          {
+            "kind": "stats",
+            "items": [
+              {
+                "tone": "amber",
+                "value": "+31°C",
+                "label": "havo harorati, quruq"
+              },
+              {
+                "tone": "red",
+                "value": "48",
+                "label": "kapalak / 3 kun tutqichda"
+              },
+              {
+                "tone": "green",
+                "value": "5–7 kun",
+                "label": "ogohlantirish oldindan"
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Tavsiya",
+            "text": "Ishlov berishni 3 kun ichida boshlang. Qanday vosita — hududiy agronom yoki Karantin instituti mutaxassisi bilan maslahatlashing: 1288."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Dala va ekin tanlanadi",
+          "text": "Fermer bir marta ro'yxatdan o'tadi. Keyin tizim o'zi kuzatadi."
+        },
+        {
+          "title": "Tutqich va ob-havo tahlil qilinadi",
+          "text": "30 000 dan ortiq feromon tutqich va O'zgidromet ma'lumoti."
+        },
+        {
+          "title": "Ogohlantirish keladi",
+          "text": "Telegram yoki SMS orqali, oddiy tilda, nima qilish kerakligi bilan."
+        }
+      ],
+      "forWho": "Fermer va dehqon xo'jaliklari, klaster agronomlari, hududiy karantin inspektorlari.",
+      "basis": "O'simliklar karantini va himoyasi ilmiy-tadqiqot instituti prognoz laboratoriyasi ma'lumotlari."
+    },
+    "reyting": {
+      "name": "AI Reyting",
+      "card": "80 000 ta obyektning har biriga xavf bali beradi. Inspektor eng xavflisiga boradi.",
+      "lead": "80 000 ta nazorat obyektining har biriga tizim xavf bali beradi. Inspektor hamma joyga emas, eng xavfli joyga boradi. Halol tadbirkor kamroq tekshiriladi.",
+      "form": {
+        "title": "Obyekt xavf bali",
+        "submit": "Balni ko'rish",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "obyekt",
+            "label": "Obyekt nomi yoki STIR",
+            "type": "text",
+            "value": ""
+          },
+          {
+            "id": "tur",
+            "label": "Obyekt turi",
+            "type": "select",
+            "options": [
+              "Savdo do'koni",
+              "Ishlab chiqarish",
+              "Umumiy ovqatlanish",
+              "Ta'lim muassasasi oshxonasi",
+              "Ombor"
+            ]
+          },
+          {
+            "id": "hudud2",
+            "label": "Hudud",
+            "type": "select",
+            "options": [
+              "Toshkent shahri",
+              "Toshkent viloyati",
+              "Samarqand",
+              "Farg'ona",
+              "Andijon"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Xavf bali (namuna)",
+        "badge": "Yuqori xavf",
+        "blocks": [
+          {
+            "kind": "score",
+            "tone": "red",
+            "value": 72,
+            "outOf": "/100",
+            "title": "\"Baraka savdo\" MChJ — Chilonzor tumani",
+            "meta": "Oxirgi tekshiruv: 14.06.2026 · Shikoyatlar: 2 (90 kun) · Ro'yxatda: 2019-yildan",
+            "action": "Tavsiya: rejadan tashqari tekshiruv 14 kun ichida"
+          },
+          {
+            "kind": "bars",
+            "items": [
+              {
+                "tone": "red",
+                "label": "Oldingi nomuvofiqliklar",
+                "value": 25
+              },
+              {
+                "tone": "red",
+                "label": "Shikoyatlar",
+                "value": 20
+              },
+              {
+                "tone": "amber",
+                "label": "Muddati o'tgan mahsulot",
+                "value": 15
+              },
+              {
+                "tone": "amber",
+                "label": "Mahsulot turi xavfi",
+                "value": 12
+              },
+              {
+                "tone": "green",
+                "label": "Hujjatlar to'liq",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Hujjatlar to'liq (−10 bal)",
+            "text": "Sanitariya xulosasi va xodimlar tibbiy ko'rigi muddati ichida."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Ma'lumot yig'iladi",
+          "text": "Oldingi tekshiruvlar, shikoyatlar, mahsulot turi, hudud."
+        },
+        {
+          "title": "Tizim bal hisoblaydi",
+          "text": "Har obyekt 0 dan 100 gacha bal oladi. Har kuni yangilanadi."
+        },
+        {
+          "title": "Inspektor yo'naltiriladi",
+          "text": "Reja eng xavfli obyektlardan tuziladi. Sabab ko'rsatiladi."
+        }
+      ],
+      "forWho": "Qo'mita inspektorlari va hududiy boshqarmalar. Tadbirkor o'z balini kabinetda ko'radi.",
+      "basis": "Nazorat obyektlarining xavf darajasini baholash tartibi, 'Yagona darcha' va nazorat reyestri ma'lumotlari."
+    },
+    "import": {
+      "name": "AI Import",
+      "card": "Chegaradagi har bir partiyaga rang beradi: yashil, sariq yoki qizil. Xavfsiz yuk tez o'tadi.",
+      "lead": "Chegaraga kelgan har bir partiya uchun tizim xavfni oldindan baholaydi va bitta rang beradi: yashil — o'tadi, sariq — hujjat tekshiriladi, qizil — laboratoriya.",
+      "form": {
+        "title": "Partiya xavfini baholash",
+        "submit": "Baholash",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "mamlakat",
+            "label": "Qayerdan",
+            "type": "select",
+            "options": [
+              "Qozog'iston",
+              "Rossiya",
+              "Xitoy",
+              "Turkiya",
+              "Eron",
+              "Pokiston",
+              "Hindiston"
+            ]
+          },
+          {
+            "id": "mahsulot",
+            "label": "Mahsulot",
+            "type": "select",
+            "options": [
+              "Banan",
+              "Sut kukuni",
+              "Mol go'shti",
+              "Choy",
+              "Shakar",
+              "Guruch",
+              "Sitrus"
+            ]
+          },
+          {
+            "id": "eksportyor",
+            "label": "Eksportyor",
+            "type": "text",
+            "value": "Fresh Fruits LLP"
+          },
+          {
+            "id": "ogirlik",
+            "label": "Og'irligi (tonna)",
+            "type": "number",
+            "value": "20"
+          }
+        ]
+      },
+      "result": {
+        "title": "Qaror (namuna)",
+        "badge": "Sariq — hujjat tekshiruvi",
+        "blocks": [
+          {
+            "kind": "signal",
+            "level": "amber",
+            "title": "Hujjatlar tekshiriladi. Laboratoriya namunasi kerak emas.",
+            "text": "Taxminiy vaqt: 2 soat. Partiya: 20 t banan, Qozog'iston orqali, eksportyor Fresh Fruits LLP."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Eksportyor tarixi: 1 nomuvofiqlik (12 oy)",
+            "text": "2026-yil mart oyida sertifikat raqami mos kelmagan. Shu sabab hujjat tekshiruvi."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Xalqaro ogohlantirish yo'q",
+            "text": "Banan bo'yicha RASFF va INFOSAN tizimlarida oxirgi 30 kunda signal yo'q."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Fitosanitar sertifikat tasdiqlandi",
+            "text": "ePhyto raqami eksport qiluvchi mamlakat tizimida topildi va mos."
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Inspektor qarori",
+            "text": "Rang — tavsiya. Yakuniy qarorni chegaradagi inspektor qabul qiladi va tizimda qayd etadi."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Partiya ma'lumoti keladi",
+          "text": "E-Fito va bojxona deklaratsiyasidan avtomatik olinadi."
+        },
+        {
+          "title": "Tizim xavfni baholaydi",
+          "text": "Eksportyor tarixi, mahsulot turi, mamlakat, xalqaro signallar."
+        },
+        {
+          "title": "Bitta rang",
+          "text": "Yashil, sariq yoki qizil. Inspektor sababini ko'radi va qaror qiladi."
+        }
+      ],
+      "forWho": "Chegara karantin va veterinariya inspektorlari. Importyor — kabinetda partiya holatini ko'radi.",
+      "basis": "Karantin nazorati tartibi, bojxona bilan ma'lumot almashish shartnomasi, xalqaro ogohlantirish tizimlari."
+    },
+    "eksport": {
+      "name": "AI Eksport",
+      "card": "Mahsulot chet el talabiga mosmi, oldindan tekshiradi. Rad etilish xavfini ko'rsatadi.",
+      "lead": "Mahsulotingiz chet el talabiga mosmi — yuk jo'natishdan oldin tekshiring. Tizim kamchiliklarni ko'rsatadi va rad etilish xavfini baholaydi.",
+      "form": {
+        "title": "Eksportga tayyorlik",
+        "submit": "Tekshirish",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "davlat",
+            "label": "Qayerga",
+            "type": "select",
+            "options": [
+              "Yevropa Ittifoqi",
+              "Xitoy",
+              "Rossiya",
+              "Koreya",
+              "BAA",
+              "Turkiya"
+            ]
+          },
+          {
+            "id": "mahsulot2",
+            "label": "Mahsulot",
+            "type": "select",
+            "options": [
+              "Quritilgan o'rik",
+              "Gilos",
+              "Uzum",
+              "Yong'oq",
+              "Mayiz",
+              "Pomidor"
+            ]
+          },
+          {
+            "id": "partiya",
+            "label": "Partiya (tonna)",
+            "type": "number",
+            "value": "18"
+          }
+        ]
+      },
+      "result": {
+        "title": "Tayyorlik (namuna)",
+        "badge": "Rad etilish xavfi: O'rta",
+        "blocks": [
+          {
+            "kind": "progress",
+            "label": "Tayyorlik",
+            "value": 78
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Fitosanitar sertifikat (ePhyto) — tayyor",
+            "text": "YI tizimi (TRACES) bilan elektron almashinuv ishlaydi."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Pestitsid qoldig'i (MRL) — chegara ichida",
+            "text": "Laboratoriya xulosasi 02.10.2026, barcha ko'rsatkich YI me'yoridan past."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Aflatoksin tahlili — 6 oydan eski",
+            "text": "YI uchun 3 oydan yangi tahlil kerak. Laboratoriyaga yangi namuna bering."
+          },
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "Markirovka — YI talabiga mos emas",
+            "text": "Yorliqda ingliz tilida tarkib va allergen yo'q. AI Yorliq orqali tekshirib tuzating."
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Oldingi tajriba",
+            "text": "2025–2026-yillarda O'zbekistondan YIga quritilgan mevada 25 ta ogohlantirish bo'lgan, asosiy sabab — aflatoksin. Shu uchun bu tahlil muhim."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Mamlakat va mahsulot tanlanadi",
+          "text": "Tizim o'sha mamlakatning hozirgi talablarini oladi."
+        },
+        {
+          "title": "Hujjat va tahlillar solishtiriladi",
+          "text": "Sertifikat, laboratoriya, markirovka — har biri alohida."
+        },
+        {
+          "title": "Kamchiliklar ro'yxati",
+          "text": "Nima yetishmaydi va qayerda tuzatish mumkin."
+        }
+      ],
+      "forWho": "Eksportyorlar, klasterlar va agrofirmalar. Hududiy karantin inspektorlari uchun ham.",
+      "basis": "Import qiluvchi mamlakatlar talablari (YI, Xitoy, Rossiya), ISPM standartlari, Codex me'yorlari."
+    },
+    "bozor": {
+      "name": "AI Bozor",
+      "card": "Bozorni va xalqaro ogohlantirishlarni kuzatadi. Xavfli mahsulotni qaytarib olish signalini beradi.",
+      "lead": "Tizim xalqaro ogohlantirish tizimlarini (RASFF, INFOSAN) va mahalliy bozor monitoringini kuzatadi. O'zbekiston bozoriga tegishli xavfni ajratadi va qaytarib olish signalini beradi.",
+      "form": {
+        "title": "Ogohlantirishlarni qidirish",
+        "submit": "Qidirish",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "qidiruv",
+            "label": "Mahsulot, brend yoki mamlakat",
+            "type": "text",
+            "value": "sut kukuni"
+          },
+          {
+            "id": "manba",
+            "label": "Manba",
+            "type": "select",
+            "options": [
+              "Barchasi",
+              "RASFF (Yevropa)",
+              "INFOSAN (JSST)",
+              "Mahalliy monitoring",
+              "Ijtimoiy tarmoqlar"
+            ]
+          },
+          {
+            "id": "davr",
+            "label": "Davr",
+            "type": "select",
+            "options": [
+              "Oxirgi 7 kun",
+              "Oxirgi 30 kun",
+              "Oxirgi 90 kun"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Ogohlantirishlar (namuna)",
+        "badge": "3 ta signal · 1 ta jiddiy",
+        "blocks": [
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "RASFF 2026.4312 — sut kukunida melamin",
+            "text": "Manba: Polsha, 19.10.2026. O'zbekistonga shu ishlab chiqaruvchidan 2 partiya kirgan (AI Kuzatuv). Qaytarib olish tavsiya etiladi."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Mahalliy monitoring — muddati o'tgan sut mahsuloti",
+            "text": "Toshkent, 4 ta do'konda 21.10.2026 aniqlandi. Inspektorlarga topshiriq berildi."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Ijtimoiy tarmoqlar — jiddiy signal yo'q",
+            "text": "Oxirgi 30 kunda brend haqida 3 ta shikoyat, barchasi ta'm haqida, xavfsizlik haqida emas."
+          },
+          {
+            "kind": "stats",
+            "items": [
+              {
+                "tone": "navy",
+                "value": "5 250",
+                "label": "RASFF ogohlantirishi / yil"
+              },
+              {
+                "tone": "blue",
+                "value": "41",
+                "label": "O'zbekistonga tegishli (30 kun)"
+              },
+              {
+                "tone": "red",
+                "value": "2",
+                "label": "qaytarib olish signali (30 kun)"
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Qaytarib olish qanday ishlaydi",
+            "text": "Signal AI Kuzatuv orqali partiyani topadi, do'konlar ro'yxatini chiqaradi va hududiy inspektorga yuboradi."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Manbalar kuzatiladi",
+          "text": "Xalqaro tizimlar, mahalliy monitoring, laboratoriya, ijtimoiy tarmoqlar."
+        },
+        {
+          "title": "Tizim tegishlisini ajratadi",
+          "text": "Faqat O'zbekiston bozoriga kirgan mahsulot va ishlab chiqaruvchi."
+        },
+        {
+          "title": "Signal yuboriladi",
+          "text": "Qaytarib olish tavsiyasi — inspektorga va rahbariyatga o'sha kuni."
+        }
+      ],
+      "forWho": "Qo'mita bozor nazorati bo'limi, hududiy inspektorlar, importyorlar.",
+      "basis": "RASFF va INFOSAN tizimlari, oziq-ovqat mahsulotlarini bozordan olib qo'yish tartibi."
+    },
+    "yorliq": {
+      "name": "AI Yorliq",
+      "card": "Mahsulot yorlig'ini rasmdan tekshiradi: tarkib, muddat va taqiqlangan qo'shimchalar.",
+      "lead": "Mahsulot yorlig'ini rasmga oling. Tizim tarkib, saqlash muddati, E-kodlar va majburiy belgilarni talablarga solishtiradi va natijani bir daqiqada ko'rsatadi.",
+      "form": {
+        "title": "Yorliqni tekshirish",
+        "submit": "Tekshirish",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "yorliq-rasm",
+            "label": "Yorliq rasmi (JPG yoki PNG, 50 MB gacha)",
+            "type": "file",
+            "hint": "Rasmni shu yerga tashlang yoki tanlang"
+          },
+          {
+            "id": "mahsulot-turi",
+            "label": "Mahsulot turi",
+            "type": "select",
+            "options": [
+              "Sut mahsulotlari",
+              "Go'sht mahsulotlari",
+              "Qandolat",
+              "Ichimliklar",
+              "Boshqa"
+            ]
+          },
+          {
+            "id": "kelib-chiqishi",
+            "label": "Kelib chiqishi",
+            "type": "select",
+            "options": [
+              "Mahalliy ishlab chiqarish",
+              "Import"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Natija (namuna)",
+        "badge": "2 ta nomuvofiqlik",
+        "blocks": [
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "Davlat tilida yorliq yo'q",
+            "text": "Tarkib va saqlash sharti faqat chet tilida berilgan. Talab: o'zbek tilida majburiy."
+          },
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "Taqiqlangan qo'shimcha: E-171",
+            "text": "Tarkibda ko'rsatilgan. Ro'yxatga olish uchun tarkib o'zgartirilishi kerak."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Saqlash muddati va ishlab chiqaruvchi — to'g'ri",
+            "text": "Sana, partiya raqami va manzil o'qilib, talabga mos."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Rasm yuklanadi",
+          "text": "Telefon yoki kompyuterdan yorliq rasmi tanlanadi."
+        },
+        {
+          "title": "Tizim o'qiydi",
+          "text": "Matn ajratib olinadi va talablar ro'yxatiga solishtiriladi."
+        },
+        {
+          "title": "Natija va tavsiya",
+          "text": "Nomuvofiqlik va uni tuzatish yo'li ko'rsatiladi."
+        }
+      ],
+      "forWho": "Ishlab chiqaruvchilar, importyorlar va Qo'mita inspektorlari — ro'yxatga olishdan oldin dastlabki tekshiruv.",
+      "basis": "Oziq-ovqat mahsulotlarini markirovkalash bo'yicha sanitariya qoidalari va texnik reglamentlar."
+    },
+    "hisobot": {
+      "name": "AI Hisobot",
+      "card": "Rahbariyat uchun boshqaruv paneli. Asosiy ko'rsatkichlar bir ekranda, savolga javob bir daqiqada.",
+      "lead": "Rahbariyat uchun boshqaruv paneli. Barcha tizimlardan ma'lumot bir ekranda. Savolni oddiy tilda bering — javob bir daqiqada.",
+      "form": {
+        "title": "Boshqaruv paneli",
+        "submit": "Ko'rsatish",
+        "reset": "Standart ko'rinish",
+        "fields": [
+          {
+            "id": "davr2",
+            "label": "Davr",
+            "type": "select",
+            "options": [
+              "Oxirgi 30 kun",
+              "Chorak",
+              "Yil boshidan"
+            ]
+          },
+          {
+            "id": "hudud3",
+            "label": "Hudud",
+            "type": "select",
+            "options": [
+              "Respublika",
+              "Toshkent shahri",
+              "Farg'ona",
+              "Samarqand",
+              "Andijon"
+            ]
+          },
+          {
+            "id": "savol2",
+            "label": "Savol (ixtiyoriy)",
+            "type": "text",
+            "value": "Qaysi viloyatda nomuvofiqlik ko'p?"
+          }
+        ]
+      },
+      "result": {
+        "title": "Respublika · oxirgi 30 kun",
+        "badge": "Yangilandi: bugun 08:00",
+        "blocks": [
+          {
+            "kind": "stats",
+            "items": [
+              {
+                "tone": "blue",
+                "value": "1 240",
+                "label": "tekshiruv",
+                "delta": "+8% oldingi oyga"
+              },
+              {
+                "tone": "red",
+                "value": "312",
+                "label": "nomuvofiqlik",
+                "delta": "−5%"
+              },
+              {
+                "tone": "navy",
+                "value": "2 870",
+                "label": "murojaat · javob 1,4 kun",
+                "delta": "+3%"
+              },
+              {
+                "tone": "amber",
+                "value": "17",
+                "label": "qaytarib olingan partiya"
+              }
+            ]
+          },
+          {
+            "kind": "bars",
+            "title": "Nomuvofiqlik turi bo'yicha",
+            "items": [
+              {
+                "tone": "blue",
+                "label": "Markirovka",
+                "value": 38
+              },
+              {
+                "tone": "blue",
+                "label": "Saqlash muddati",
+                "value": 27
+              },
+              {
+                "tone": "amber",
+                "label": "Gigiyena",
+                "value": 21
+              },
+              {
+                "tone": "muted",
+                "label": "Hujjatlar",
+                "value": 14
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Savolga javob: \"Qaysi viloyatda nomuvofiqlik ko'p?\"",
+            "text": "Farg'ona — 61 ta (oxirgi 30 kun), keyin Toshkent shahri — 54, Samarqand — 39. Farg'onada asosiy sabab — markirovka (24 ta)."
+          },
+          {
+            "kind": "pills",
+            "items": [
+              "PDF hisobot →",
+              "Excel →",
+              "Rahbarga yuborish →"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Ma'lumot yig'iladi",
+          "text": "Nazorat, murojaat, laboratoriya, chegara — barcha tizimlardan har kuni."
+        },
+        {
+          "title": "Tizim hisoblaydi",
+          "text": "Ko'rsatkichlar, o'zgarish va sabablar avtomatik."
+        },
+        {
+          "title": "Rahbar ko'radi va so'raydi",
+          "text": "Bir ekran. Savol oddiy tilda, javob — raqam va manba bilan."
+        }
+      ],
+      "forWho": "Qo'mita rahbariyati, hududiy boshqarma boshliqlari, tahlil bo'limi.",
+      "basis": "Qo'mitaning yagona ma'lumotlar bazasi, PQ-178 bo'yicha yagona platforma."
+    },
+    "kuzatuv": {
+      "name": "AI Kuzatuv",
+      "card": "Har bir partiya qayerdan kelib, qayerga ketganini ko'rsatadi. Muammo chiqsa, manba bir daqiqada topiladi.",
+      "lead": "Har bir partiya daladan do'kongacha QR kod bilan qayd etiladi. Muammo chiqsa, tizim manbani va mahsulot qayerga ketganini bir daqiqada topadi.",
+      "form": {
+        "title": "Partiya tarixini ko'rish",
+        "submit": "Ko'rish",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "partiya2",
+            "label": "Partiya raqami yoki QR",
+            "type": "text",
+            "value": "UZ-2026-048213"
+          },
+          {
+            "id": "mahsulot3",
+            "label": "Mahsulot turi",
+            "type": "select",
+            "options": [
+              "Meva-sabzavot",
+              "Sut mahsulotlari",
+              "Go'sht",
+              "Un va don",
+              "Boshqa"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "UZ-2026-048213 · Pomidor, 4,2 t",
+        "badge": "Holati: xavfsiz",
+        "blocks": [
+          {
+            "kind": "timeline",
+            "steps": [
+              {
+                "tone": "green",
+                "title": "Dala — Farg'ona, Quva tumani",
+                "text": "\"Oltin bog'\" fermer xo'jaligi · 12.09.2026 · AI Fermer: zararkunanda xavfi past edi."
+              },
+              {
+                "tone": "blue",
+                "title": "Laboratoriya — Toshkent markaziy lab",
+                "text": "15.09.2026 · Pestitsid qoldig'i me'yor ichida · Patogen aniqlanmadi."
+              },
+              {
+                "tone": "amber",
+                "title": "Ombor — \"Agro-log\", Toshkent",
+                "text": "17.09.2026 · Harorat rejimi buzilmagan (sensor)."
+              },
+              {
+                "tone": "navy",
+                "title": "Bozor — 14 do'kon, 3 viloyat",
+                "text": "20.09.2026 · Toshkent (9), Samarqand (3), Jizzax (2). Qoldiq: 0,6 t."
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Agar muammo chiqsa",
+            "text": "Bitta tugma bilan 14 do'konga qaytarib olish signali ketadi. Manba — fermer xo'jaligi va laboratoriya natijasi — darhol ko'rinadi."
+          },
+          {
+            "kind": "action",
+            "label": "Qaytarib olish signalini tayyorlash"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "QR bilan qayd",
+          "text": "Har bosqichda partiya skanerlanadi: dala, lab, ombor, do'kon."
+        },
+        {
+          "title": "Tizim zanjirni bog'laydi",
+          "text": "E-Fito, laboratoriya va savdo tizimlari bitta tarixga yig'iladi."
+        },
+        {
+          "title": "Manba bir daqiqada",
+          "text": "Shikoyat yoki ogohlantirish kelsa — qayerdan kelgan, qayerda sotilyapti."
+        }
+      ],
+      "forWho": "Inspektorlar, ombor va savdo tarmoqlari, ishlab chiqaruvchilar. Fuqaro QR orqali mahsulot yo'lini ko'radi.",
+      "basis": "PQ-178 bo'yicha yagona platforma va kuzatuv reyestri, E-Fito tizimi."
+    },
+    "oshxona": {
+      "name": "AI Oshxona",
+      "card": "Bog'cha va maktab oshxonalarini kamera orqali kuzatadi. Gigiyena buzilsa, darhol xabar beradi.",
+      "lead": "Bog'cha va maktab oshxonalaridagi kameralar tizimga ulanadi. Sun'iy intellekt gigiyena qoidalarini kuzatadi: bosh kiyim, qo'lqop, xom va tayyor mahsulot alohida. Buzilish bo'lsa, mas'ulga darhol xabar.",
+      "form": {
+        "title": "Oshxona kameralari",
+        "submit": "Ko'rish",
+        "reset": "Tozalash",
+        "fields": [
+          {
+            "id": "hudud4",
+            "label": "Hudud",
+            "type": "select",
+            "options": [
+              "Toshkent shahri",
+              "Samarqand",
+              "Farg'ona",
+              "Andijon",
+              "Namangan"
+            ]
+          },
+          {
+            "id": "muassasa",
+            "label": "Muassasa turi",
+            "type": "select",
+            "options": [
+              "Barchasi",
+              "Bog'cha",
+              "Maktab"
+            ]
+          },
+          {
+            "id": "holat",
+            "label": "Holat",
+            "type": "select",
+            "options": [
+              "Barchasi",
+              "Faqat ogohlantirish",
+              "Faqat jiddiy"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Toshkent shahri · bugun",
+        "badge": "312 oshxona · 14 ogohlantirish · 2 jiddiy",
+        "blocks": [
+          {
+            "kind": "live",
+            "title": "45-maktab, Chilonzor · Kamera 2",
+            "live": "JONLI",
+            "boxes": [
+              {
+                "level": "green",
+                "label": "Bosh kiyim: OK"
+              },
+              {
+                "level": "green",
+                "label": "Qo'lqop: OK"
+              },
+              {
+                "level": "green",
+                "label": "Bosh kiyim: OK"
+              },
+              {
+                "level": "red",
+                "label": "Qo'lqop: yo'q"
+              }
+            ]
+          },
+          {
+            "kind": "cameras",
+            "items": [
+              {
+                "level": "green",
+                "label": "Yashil · jonli",
+                "title": "112-bog'cha, Yunusobod",
+                "text": "Barcha xodimlar bosh kiyim va qo'lqopda. Oxirgi 24 soatda buzilish yo'q."
+              },
+              {
+                "level": "amber",
+                "label": "Sariq · jonli",
+                "title": "45-maktab, Chilonzor",
+                "text": "10:42 — xodim qo'lqopsiz ishladi. Mas'ulga xabar yuborildi, 10:51 da tuzatildi."
+              },
+              {
+                "level": "red",
+                "label": "Qizil · jonli",
+                "title": "7-bog'cha, Sergeli",
+                "text": "09:15 — xom go'sht va tayyor ovqat bir stolda. Inspektor chaqirildi."
+              },
+              {
+                "level": "green",
+                "label": "Yashil · jonli",
+                "title": "23-maktab, Mirzo Ulug'bek",
+                "text": "Muzlatgich harorati sensor bo'yicha me'yorda (+3°C)."
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Bolalar maxfiyligi",
+            "text": "Kameralar faqat oshxona zonasini kuzatadi. Bolalar tasvirga olinmaydi. Yozuv 30 kun saqlanadi, faqat inspektor ko'radi."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Nega bu muhim",
+            "text": "2025-yilda ta'lim muassasalarida 1 940 bola ovqatdan zaharlangan. Tizim buzilishni zaharlanishdan oldin ko'rsatadi."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Kamera ulanadi",
+          "text": "Mavjud kamera tizimga ulanadi, yangi uskuna kerak emas."
+        },
+        {
+          "title": "Tizim qoidalarni kuzatadi",
+          "text": "Bosh kiyim, qo'lqop, xom va tayyor mahsulot, tozalik — avtomatik."
+        },
+        {
+          "title": "Buzilish — darhol xabar",
+          "text": "Oshxona mas'uliga va hududiy inspektorga. Jiddiy holat — rahbarga."
+        }
+      ],
+      "forWho": "Sanitariya-epidemiologiya xizmati, maktab va bog'cha rahbarlari, hokimliklar.",
+      "basis": "Ta'lim muassasalarida ovqatlanish bo'yicha sanitariya qoidalari, shaxsiy ma'lumotlar to'g'risidagi qonun."
+    }
+  }
+}

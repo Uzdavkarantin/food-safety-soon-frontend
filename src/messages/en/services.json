@@ -1,0 +1,1336 @@
+{
+  "common": {
+    "breadcrumbLabel": "Breadcrumb",
+    "home": "Home",
+    "services": "Services",
+    "statusLabel": "Live",
+    "howTitle": "How it works",
+    "forWhoTitle": "Who it's for",
+    "basisTitle": "Basis",
+    "otherTitle": "Other services",
+    "allServices": "All 12 services →",
+    "helpTitle": "Have a question?",
+    "helpText": "Hotline {phone} — AI Call Center answers day and night.",
+    "disclaimer": "The result is advisory. A Committee specialist makes the final decision."
+  },
+  "items": {
+    "sertifikat": {
+      "name": "AI Certificate",
+      "card": "Answers certificate questions 24/7 and shows the documents and links you need.",
+      "lead": "Type your certificate question. The system finds the answer in laws and regulations and shows the list of required documents and links.",
+      "form": {
+        "title": "Ask a question",
+        "submit": "Get an answer",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "savol",
+            "label": "Your question",
+            "type": "textarea",
+            "value": "What certificate do I need to export dried apricots to Turkey?"
+          },
+          {
+            "id": "hujjat",
+            "label": "Document type",
+            "type": "select",
+            "options": [
+              "Not sure — let the system decide",
+              "Phytosanitary certificate",
+              "Veterinary certificate",
+              "Certificate of conformity",
+              "Hygiene conclusion"
+            ]
+          },
+          {
+            "id": "kim",
+            "label": "Who you are",
+            "type": "select",
+            "options": [
+              "Exporter",
+              "Importer",
+              "Producer",
+              "Inspector"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Answer (sample)",
+        "badge": "Phytosanitary certificate",
+        "blocks": [
+          {
+            "kind": "text",
+            "paragraphs": [
+              "To export dried apricots to Turkey you need a <b>phytosanitary certificate</b>. It is issued by the Committee's regional quarantine inspectorate.",
+              "<b>Required documents:</b> export contract, invoice, laboratory report (aflatoxin and pesticide residues), details of the loading site.",
+              "<b>Where to apply:</b> applications go through the E-Fito system. The result is sent to the Turkish side electronically in ePhyto format."
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Processing time: 1 working day",
+            "text": "With a complete set of documents, the certificate is issued within one working day."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Please note",
+            "text": "From 2026 Turkey tightened the sulphur (SO₂) limit for dried fruit. The laboratory report must include this indicator."
+          },
+          {
+            "kind": "pills",
+            "items": [
+              "E-Fito system →",
+              "Document list →",
+              "Turkey's requirements →"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "You write a question",
+          "text": "In plain language, as if writing to a specialist."
+        },
+        {
+          "title": "The system finds the answer",
+          "text": "It pulls the relevant part of the law, regulation or Committee rules."
+        },
+        {
+          "title": "Answer and links",
+          "text": "A short answer, a list of documents and a link to the official source."
+        }
+      ],
+      "forWho": "Exporters, importers and producers. A quick reference for inspectors too.",
+      "basis": "Quarantine, veterinary and sanitary legislation, technical regulations, Committee orders."
+    },
+    "call-center": {
+      "name": "AI Call Center",
+      "card": "Answers calls to the 1288 hotline instantly and connects complex questions to a specialist.",
+      "lead": "When you call the 1288 hotline, AI answers first. Simple questions get an instant answer; complex ones are passed to a specialist.",
+      "form": {
+        "title": "Sample call",
+        "submit": "Show sample",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "til",
+            "label": "Language",
+            "type": "select",
+            "options": [
+              "Uzbek",
+              "Russian",
+              "Karakalpak"
+            ]
+          },
+          {
+            "id": "mavzu",
+            "label": "Topic",
+            "type": "select",
+            "options": [
+              "Complaint",
+              "Certificate",
+              "Import",
+              "Other"
+            ]
+          },
+          {
+            "id": "vaqt",
+            "label": "Time",
+            "type": "select",
+            "options": [
+              "Working hours",
+              "Night",
+              "Weekend"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Conversation (sample)",
+        "badge": "Response time: 4 seconds",
+        "blocks": [
+          {
+            "kind": "chat",
+            "lines": [
+              {
+                "kind": "citizen",
+                "who": "Citizen",
+                "text": "Hello. The milk I bought at a shop is past its expiry date. Where do I report it?"
+              },
+              {
+                "kind": "ai",
+                "who": "AI operator",
+                "text": "Hello. Your report has been received. Please give the shop's name and address. Keep the receipt — an inspector will contact you within 1 working day."
+              },
+              {
+                "kind": "citizen",
+                "who": "Citizen",
+                "text": "Chilanzar, block 12, the \"Baraka\" shop."
+              },
+              {
+                "kind": "ai",
+                "who": "AI operator",
+                "text": "Thank you. Report number: 1288-048213. I've sent you an SMS. It has been routed to the Tashkent city sanitary supervision department."
+              }
+            ]
+          },
+          {
+            "kind": "tags",
+            "items": [
+              {
+                "tone": "red",
+                "label": "Topic: Complaint"
+              },
+              {
+                "tone": "blue",
+                "label": "Area: Tashkent, Chilanzar"
+              },
+              {
+                "tone": "slate",
+                "label": "Routed to: Sanitary supervision"
+              },
+              {
+                "tone": "blue",
+                "label": "Language: Uzbek"
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Transfer to a specialist",
+            "text": "If the citizen asks, or the question is complex, the call moves to a live operator, who receives the conversation transcript ready to go."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "The call is received",
+          "text": "At 1288, any time, in any language."
+        },
+        {
+          "title": "Speech becomes text",
+          "text": "The system understands the question and identifies the topic and region."
+        },
+        {
+          "title": "Answer or transfer",
+          "text": "Simple questions are answered at once. Complex ones go to a specialist."
+        }
+      ],
+      "forWho": "Citizens and businesses. For Committee operators, it takes routine calls off their hands.",
+      "basis": "Regulation on the hotline, the law on appeals."
+    },
+    "murojaatlar": {
+      "name": "AI Appeals",
+      "card": "Reads each appeal, identifies its type and sends it to the right department.",
+      "lead": "The system reads appeals that arrive via Telegram, the website, 1288 and mail. It identifies the type, region and priority and routes them to the responsible department.",
+      "form": {
+        "title": "Classify an appeal",
+        "submit": "Classify",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "murojaat",
+            "label": "Appeal text",
+            "type": "textarea",
+            "value": "Five children were poisoned by food served at kindergarten No. 14 in Samarkand. Please carry out an inspection."
+          },
+          {
+            "id": "kanal",
+            "label": "Received via",
+            "type": "select",
+            "options": [
+              "Telegram bot",
+              "Website",
+              "1288",
+              "Mail",
+              "my.gov.uz"
+            ]
+          },
+          {
+            "id": "ariza",
+            "label": "Submitted by",
+            "type": "select",
+            "options": [
+              "Citizen",
+              "Business",
+              "Government body"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Classification (sample)",
+        "badge": "Priority: High",
+        "blocks": [
+          {
+            "kind": "tags",
+            "items": [
+              {
+                "tone": "red",
+                "label": "Type: Complaint"
+              },
+              {
+                "tone": "slate",
+                "label": "Area: Sanitary and epidemiological"
+              },
+              {
+                "tone": "blue",
+                "label": "Region: Samarkand city"
+              },
+              {
+                "tone": "blue",
+                "label": "Site: Kindergarten No. 14"
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "Owner: Samarkand city sanitary supervision",
+            "text": "Response deadline: 1 day. Children's health is the top priority. Management has also been notified."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Similar appeals: 2 (within 7 days)",
+            "text": "Complaints about this kindergarten also came in on 18.10 and 21.10. The system linked them into one case."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Reply sent to the citizen",
+            "text": "\"Your appeal has been received, number 2026-10-23-0912. An inspector will contact you within 1 day.\""
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Linked with AI Kitchen",
+            "text": "The last 3 days of footage from kindergarten No. 14's kitchen camera have been prepared for the inspector."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "The appeal arrives",
+          "text": "From any channel: bot, website, phone, mail."
+        },
+        {
+          "title": "The system reads and classifies it",
+          "text": "Type, region, site and priority are identified automatically."
+        },
+        {
+          "title": "Routed to the right owner",
+          "text": "To the right department, with a deadline. The citizen gets a reply letter."
+        }
+      ],
+      "forWho": "The Committee's office and regional departments. For citizens, a faster answer.",
+      "basis": "Law on appeals of individuals and legal entities, Committee record-keeping rules."
+    },
+    "fermer": {
+      "name": "AI Farmer",
+      "card": "Predicts when pests will multiply. The warning goes straight to the farmer's phone.",
+      "lead": "The system predicts in advance when pests will multiply in your field. Pheromone trap and weather data are analysed. Warnings arrive via Telegram.",
+      "form": {
+        "title": "Pest forecast",
+        "submit": "Show forecast",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "viloyat",
+            "label": "Region",
+            "type": "select",
+            "options": [
+              "Fergana",
+              "Andijan",
+              "Namangan",
+              "Tashkent",
+              "Samarkand",
+              "Bukhara",
+              "Kashkadarya",
+              "Surkhandarya",
+              "Khorezm"
+            ]
+          },
+          {
+            "id": "tuman",
+            "label": "District",
+            "type": "select",
+            "options": [
+              "Kuva",
+              "Fergana",
+              "Oltiariq",
+              "Rishtan",
+              "Baghdad"
+            ]
+          },
+          {
+            "id": "ekin",
+            "label": "Crop",
+            "type": "select",
+            "options": [
+              "Cotton",
+              "Wheat",
+              "Apple",
+              "Grape",
+              "Tomato",
+              "Potato"
+            ]
+          },
+          {
+            "id": "maydon",
+            "label": "Field area (hectares)",
+            "type": "number",
+            "value": "12"
+          }
+        ]
+      },
+      "result": {
+        "title": "7-day forecast (sample)",
+        "badge": "Kuva district · Cotton",
+        "blocks": [
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "Cotton bollworm — high risk",
+            "text": "An outbreak is expected within 5–7 days. 48 moths in the trap over 3 days (threshold: 20). Inspect the field."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Spider mite — medium risk",
+            "text": "Hot, dry weather favours it. Check the undersides of leaves."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Aphids — low risk",
+            "text": "No risk for now. Next check in 5 days."
+          },
+          {
+            "kind": "stats",
+            "items": [
+              {
+                "tone": "amber",
+                "value": "+31°C",
+                "label": "air temperature, dry"
+              },
+              {
+                "tone": "red",
+                "value": "48",
+                "label": "moths / 3 days in the trap"
+              },
+              {
+                "tone": "green",
+                "value": "5–7 days",
+                "label": "advance warning"
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Recommendation",
+            "text": "Start treatment within 3 days. For the right product, consult your district agronomist or a Quarantine Institute specialist: 1288."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Pick a field and crop",
+          "text": "The farmer registers once. After that the system keeps watch."
+        },
+        {
+          "title": "Traps and weather are analysed",
+          "text": "More than 30,000 pheromone traps and Uzhydromet data."
+        },
+        {
+          "title": "A warning arrives",
+          "text": "By Telegram or SMS, in plain language, with what to do."
+        }
+      ],
+      "forWho": "Farms and smallholders, cluster agronomists, regional quarantine inspectors.",
+      "basis": "Data from the forecasting laboratory of the Plant Quarantine and Protection Research Institute."
+    },
+    "reyting": {
+      "name": "AI Rating",
+      "card": "Gives each of 80,000 sites a risk score. Inspectors go to the riskiest first.",
+      "lead": "The system gives each of 80,000 supervised sites a risk score. Inspectors don't go everywhere — they go where the risk is highest. Honest businesses are inspected less.",
+      "form": {
+        "title": "Site risk score",
+        "submit": "Show score",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "obyekt",
+            "label": "Site name or TIN",
+            "type": "text",
+            "value": ""
+          },
+          {
+            "id": "tur",
+            "label": "Site type",
+            "type": "select",
+            "options": [
+              "Shop",
+              "Production",
+              "Catering",
+              "School canteen",
+              "Warehouse"
+            ]
+          },
+          {
+            "id": "hudud2",
+            "label": "Region",
+            "type": "select",
+            "options": [
+              "Tashkent city",
+              "Tashkent region",
+              "Samarkand",
+              "Fergana",
+              "Andijan"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Risk score (sample)",
+        "badge": "High risk",
+        "blocks": [
+          {
+            "kind": "score",
+            "tone": "red",
+            "value": 72,
+            "outOf": "/100",
+            "title": "\"Baraka savdo\" LLC — Chilanzar district",
+            "meta": "Last inspection: 14.06.2026 · Complaints: 2 (90 days) · Registered since 2019",
+            "action": "Recommendation: unscheduled inspection within 14 days"
+          },
+          {
+            "kind": "bars",
+            "items": [
+              {
+                "tone": "red",
+                "label": "Past non-conformities",
+                "value": 25
+              },
+              {
+                "tone": "red",
+                "label": "Complaints",
+                "value": 20
+              },
+              {
+                "tone": "amber",
+                "label": "Expired products",
+                "value": 15
+              },
+              {
+                "tone": "amber",
+                "label": "Product type risk",
+                "value": 12
+              },
+              {
+                "tone": "green",
+                "label": "Documents complete",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Documents complete (−10 points)",
+            "text": "Sanitary certificate and staff medical checks are within their validity period."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Data is collected",
+          "text": "Past inspections, complaints, product type, region."
+        },
+        {
+          "title": "The system computes a score",
+          "text": "Each site gets a score from 0 to 100, updated daily."
+        },
+        {
+          "title": "Inspectors are directed",
+          "text": "Plans start from the riskiest sites, with the reason shown."
+        }
+      ],
+      "forWho": "Committee inspectors and regional offices. Businesses see their own score in their account.",
+      "basis": "Procedure for assessing the risk level of supervised sites, Single Window and supervision registry data."
+    },
+    "import": {
+      "name": "AI Import",
+      "card": "Gives every shipment at the border a colour: green, yellow or red. Safe cargo clears fast.",
+      "lead": "For every shipment arriving at the border, the system assesses the risk in advance and gives it one colour: green — clears, yellow — document check, red — laboratory.",
+      "form": {
+        "title": "Assess shipment risk",
+        "submit": "Assess",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "mamlakat",
+            "label": "Origin",
+            "type": "select",
+            "options": [
+              "Kazakhstan",
+              "Russia",
+              "China",
+              "Turkey",
+              "Iran",
+              "Pakistan",
+              "India"
+            ]
+          },
+          {
+            "id": "mahsulot",
+            "label": "Product",
+            "type": "select",
+            "options": [
+              "Bananas",
+              "Milk powder",
+              "Beef",
+              "Tea",
+              "Sugar",
+              "Rice",
+              "Citrus"
+            ]
+          },
+          {
+            "id": "eksportyor",
+            "label": "Exporter",
+            "type": "text",
+            "value": "Fresh Fruits LLP"
+          },
+          {
+            "id": "ogirlik",
+            "label": "Weight (tonnes)",
+            "type": "number",
+            "value": "20"
+          }
+        ]
+      },
+      "result": {
+        "title": "Decision (sample)",
+        "badge": "Yellow — document check",
+        "blocks": [
+          {
+            "kind": "signal",
+            "level": "amber",
+            "title": "Documents will be checked. No laboratory sample needed.",
+            "text": "Estimated time: 2 hours. Shipment: 20 t of bananas via Kazakhstan, exporter Fresh Fruits LLP."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Exporter history: 1 non-conformity (12 months)",
+            "text": "In March 2026 the certificate number did not match. Hence the document check."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "No international alerts",
+            "text": "No signals for bananas in RASFF or INFOSAN in the last 30 days."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Phytosanitary certificate confirmed",
+            "text": "The ePhyto number was found in the exporting country's system and matches."
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Inspector's decision",
+            "text": "The colour is a recommendation. The border inspector makes the final decision and records it in the system."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Shipment data arrives",
+          "text": "Pulled automatically from E-Fito and the customs declaration."
+        },
+        {
+          "title": "The system assesses risk",
+          "text": "Exporter history, product type, country, international alerts."
+        },
+        {
+          "title": "One colour",
+          "text": "Green, yellow or red. The inspector sees why and decides."
+        }
+      ],
+      "forWho": "Border quarantine and veterinary inspectors. Importers see their shipment status in their account.",
+      "basis": "Quarantine control procedure, data-exchange agreement with customs, international alert systems."
+    },
+    "eksport": {
+      "name": "AI Export",
+      "card": "Checks in advance whether a product meets foreign requirements and shows the risk of rejection.",
+      "lead": "Check whether your product meets the destination country's requirements before you ship. The system shows the gaps and estimates the risk of rejection.",
+      "form": {
+        "title": "Export readiness",
+        "submit": "Check",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "davlat",
+            "label": "Destination",
+            "type": "select",
+            "options": [
+              "European Union",
+              "China",
+              "Russia",
+              "Korea",
+              "UAE",
+              "Turkey"
+            ]
+          },
+          {
+            "id": "mahsulot2",
+            "label": "Product",
+            "type": "select",
+            "options": [
+              "Dried apricots",
+              "Cherries",
+              "Grapes",
+              "Walnuts",
+              "Raisins",
+              "Tomatoes"
+            ]
+          },
+          {
+            "id": "partiya",
+            "label": "Shipment (tonnes)",
+            "type": "number",
+            "value": "18"
+          }
+        ]
+      },
+      "result": {
+        "title": "Readiness (sample)",
+        "badge": "Rejection risk: Medium",
+        "blocks": [
+          {
+            "kind": "progress",
+            "label": "Readiness",
+            "value": 78
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Phytosanitary certificate (ePhyto) — ready",
+            "text": "Electronic exchange with the EU system (TRACES) is working."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Pesticide residue (MRL) — within limits",
+            "text": "Laboratory report of 02.10.2026; all indicators below EU limits."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Aflatoxin test — older than 6 months",
+            "text": "The EU requires a test less than 3 months old. Submit a new sample to the laboratory."
+          },
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "Labelling — does not meet EU requirements",
+            "text": "The label lacks ingredients and allergens in English. Check and fix it with AI Label."
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Past experience",
+            "text": "In 2025–2026 there were 25 EU alerts on dried fruit from Uzbekistan, mainly for aflatoxin. That is why this test matters."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Pick a country and product",
+          "text": "The system loads that country's current requirements."
+        },
+        {
+          "title": "Documents and tests are compared",
+          "text": "Certificate, laboratory, labelling — each checked separately."
+        },
+        {
+          "title": "A list of gaps",
+          "text": "What is missing and where it can be fixed."
+        }
+      ],
+      "forWho": "Exporters, clusters and agribusinesses. Also for regional quarantine inspectors.",
+      "basis": "Importing countries' requirements (EU, China, Russia), ISPM standards, Codex norms."
+    },
+    "bozor": {
+      "name": "AI Market",
+      "card": "Monitors the market and international alerts, and signals when a dangerous product must be recalled.",
+      "lead": "The system monitors international alert systems (RASFF, INFOSAN) and local market monitoring. It singles out risks for the Uzbek market and issues a recall signal.",
+      "form": {
+        "title": "Search alerts",
+        "submit": "Search",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "qidiruv",
+            "label": "Product, brand or country",
+            "type": "text",
+            "value": "milk powder"
+          },
+          {
+            "id": "manba",
+            "label": "Source",
+            "type": "select",
+            "options": [
+              "All",
+              "RASFF (Europe)",
+              "INFOSAN (WHO)",
+              "Local monitoring",
+              "Social media"
+            ]
+          },
+          {
+            "id": "davr",
+            "label": "Period",
+            "type": "select",
+            "options": [
+              "Last 7 days",
+              "Last 30 days",
+              "Last 90 days"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Alerts (sample)",
+        "badge": "3 signals · 1 serious",
+        "blocks": [
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "RASFF 2026.4312 — melamine in milk powder",
+            "text": "Source: Poland, 19.10.2026. Two shipments from this producer entered Uzbekistan (AI Traceability). A recall is recommended."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Local monitoring — expired dairy product",
+            "text": "Found in 4 shops in Tashkent on 21.10.2026. Inspectors have been assigned."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Social media — no serious signals",
+            "text": "3 complaints about the brand in the last 30 days, all about taste, not safety."
+          },
+          {
+            "kind": "stats",
+            "items": [
+              {
+                "tone": "navy",
+                "value": "5,250",
+                "label": "RASFF alerts per year"
+              },
+              {
+                "tone": "blue",
+                "value": "41",
+                "label": "relevant to Uzbekistan (30 days)"
+              },
+              {
+                "tone": "red",
+                "value": "2",
+                "label": "recall signals (30 days)"
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "How a recall works",
+            "text": "The signal uses AI Traceability to find the batch, lists the shops and sends it to the regional inspector."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Sources are monitored",
+          "text": "International systems, local monitoring, laboratory, social media."
+        },
+        {
+          "title": "The system filters what matters",
+          "text": "Only products and producers that reached the Uzbek market."
+        },
+        {
+          "title": "A signal is sent",
+          "text": "A recall recommendation goes to inspectors and management the same day."
+        }
+      ],
+      "forWho": "The Committee's market supervision department, regional inspectors, importers.",
+      "basis": "RASFF and INFOSAN systems, procedure for withdrawing food products from the market."
+    },
+    "yorliq": {
+      "name": "AI Label",
+      "card": "Checks a product label from a photo: ingredients, dates and banned additives.",
+      "lead": "Take a photo of a product label. The system checks ingredients, shelf life, E-numbers and mandatory marks against the requirements and shows the result in a minute.",
+      "form": {
+        "title": "Check a label",
+        "submit": "Check",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "yorliq-rasm",
+            "label": "Label photo (JPG or PNG, up to 50 MB)",
+            "type": "file",
+            "hint": "Drop a photo here or choose a file"
+          },
+          {
+            "id": "mahsulot-turi",
+            "label": "Product type",
+            "type": "select",
+            "options": [
+              "Dairy products",
+              "Meat products",
+              "Confectionery",
+              "Beverages",
+              "Other"
+            ]
+          },
+          {
+            "id": "kelib-chiqishi",
+            "label": "Origin",
+            "type": "select",
+            "options": [
+              "Local production",
+              "Import"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Result (sample)",
+        "badge": "2 non-conformities",
+        "blocks": [
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "No label in the state language",
+            "text": "Ingredients and storage conditions are only in a foreign language. Requirement: Uzbek is mandatory."
+          },
+          {
+            "kind": "note",
+            "tone": "red",
+            "icon": "alert",
+            "title": "Banned additive: E-171",
+            "text": "Listed in the ingredients. The recipe must change before registration."
+          },
+          {
+            "kind": "note",
+            "tone": "green",
+            "icon": "check",
+            "title": "Shelf life and producer — correct",
+            "text": "Date, batch number and address were read and meet the requirements."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "A photo is uploaded",
+          "text": "Choose a label photo from your phone or computer."
+        },
+        {
+          "title": "The system reads it",
+          "text": "The text is extracted and compared with the list of requirements."
+        },
+        {
+          "title": "Result and advice",
+          "text": "Non-conformities are shown with how to fix them."
+        }
+      ],
+      "forWho": "Producers, importers and Committee inspectors — a first check before registration.",
+      "basis": "Sanitary rules and technical regulations on food labelling."
+    },
+    "hisobot": {
+      "name": "AI Report",
+      "card": "A dashboard for management: key indicators on one screen, an answer to any question in a minute.",
+      "lead": "A dashboard for management. Data from every system on one screen. Ask in plain language — get the answer in a minute.",
+      "form": {
+        "title": "Dashboard",
+        "submit": "Show",
+        "reset": "Default view",
+        "fields": [
+          {
+            "id": "davr2",
+            "label": "Period",
+            "type": "select",
+            "options": [
+              "Last 30 days",
+              "Quarter",
+              "Year to date"
+            ]
+          },
+          {
+            "id": "hudud3",
+            "label": "Region",
+            "type": "select",
+            "options": [
+              "Republic",
+              "Tashkent city",
+              "Fergana",
+              "Samarkand",
+              "Andijan"
+            ]
+          },
+          {
+            "id": "savol2",
+            "label": "Question (optional)",
+            "type": "text",
+            "value": "Which region has the most non-conformities?"
+          }
+        ]
+      },
+      "result": {
+        "title": "Republic · last 30 days",
+        "badge": "Updated: today 08:00",
+        "blocks": [
+          {
+            "kind": "stats",
+            "items": [
+              {
+                "tone": "blue",
+                "value": "1,240",
+                "label": "inspections",
+                "delta": "+8% vs last month"
+              },
+              {
+                "tone": "red",
+                "value": "312",
+                "label": "non-conformities",
+                "delta": "−5%"
+              },
+              {
+                "tone": "navy",
+                "value": "2,870",
+                "label": "appeals · reply in 1.4 days",
+                "delta": "+3%"
+              },
+              {
+                "tone": "amber",
+                "value": "17",
+                "label": "batches recalled"
+              }
+            ]
+          },
+          {
+            "kind": "bars",
+            "title": "By type of non-conformity",
+            "items": [
+              {
+                "tone": "blue",
+                "label": "Labelling",
+                "value": 38
+              },
+              {
+                "tone": "blue",
+                "label": "Shelf life",
+                "value": 27
+              },
+              {
+                "tone": "amber",
+                "label": "Hygiene",
+                "value": 21
+              },
+              {
+                "tone": "muted",
+                "label": "Documents",
+                "value": 14
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Answer: \"Which region has the most non-conformities?\"",
+            "text": "Fergana — 61 (last 30 days), then Tashkent city — 54, Samarkand — 39. In Fergana the main cause is labelling (24)."
+          },
+          {
+            "kind": "pills",
+            "items": [
+              "PDF report →",
+              "Excel →",
+              "Send to management →"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Data is collected",
+          "text": "Supervision, appeals, laboratory, border — from every system, daily."
+        },
+        {
+          "title": "The system calculates",
+          "text": "Indicators, changes and causes — automatically."
+        },
+        {
+          "title": "Managers look and ask",
+          "text": "One screen. Questions in plain language; answers with a number and a source."
+        }
+      ],
+      "forWho": "Committee leadership, heads of regional offices, the analytics department.",
+      "basis": "The Committee's single database, the unified platform under PQ-178."
+    },
+    "kuzatuv": {
+      "name": "AI Traceability",
+      "card": "Shows where each batch came from and where it went. If a problem arises, the source is found in a minute.",
+      "lead": "Every batch is recorded with a QR code from field to shop. If a problem arises, the system finds the source and where the product went in a minute.",
+      "form": {
+        "title": "Batch history",
+        "submit": "Show",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "partiya2",
+            "label": "Batch number or QR",
+            "type": "text",
+            "value": "UZ-2026-048213"
+          },
+          {
+            "id": "mahsulot3",
+            "label": "Product type",
+            "type": "select",
+            "options": [
+              "Fruit and vegetables",
+              "Dairy products",
+              "Meat",
+              "Flour and grain",
+              "Other"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "UZ-2026-048213 · Tomatoes, 4.2 t",
+        "badge": "Status: Safe",
+        "blocks": [
+          {
+            "kind": "timeline",
+            "steps": [
+              {
+                "tone": "green",
+                "title": "Field — Fergana, Kuva district",
+                "text": "\"Oltin bog'\" farm · 12.09.2026 · AI Farmer: pest risk was low."
+              },
+              {
+                "tone": "blue",
+                "title": "Laboratory — Tashkent central lab",
+                "text": "15.09.2026 · Pesticide residue within limits · No pathogens detected."
+              },
+              {
+                "tone": "amber",
+                "title": "Warehouse — \"Agro-log\", Tashkent",
+                "text": "17.09.2026 · Temperature regime not breached (sensor)."
+              },
+              {
+                "tone": "navy",
+                "title": "Market — 14 shops, 3 regions",
+                "text": "20.09.2026 · Tashkent (9), Samarkand (3), Jizzakh (2). Remaining: 0.6 t."
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "If a problem arises",
+            "text": "One button sends a recall signal to all 14 shops. The source — the farm and the lab result — is visible immediately."
+          },
+          {
+            "kind": "action",
+            "label": "Prepare a recall signal"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "Recorded by QR",
+          "text": "The batch is scanned at every stage: field, lab, warehouse, shop."
+        },
+        {
+          "title": "The system links the chain",
+          "text": "E-Fito, laboratory and retail systems are combined into one history."
+        },
+        {
+          "title": "Source in a minute",
+          "text": "When a complaint or alert comes in — where it came from and where it is sold."
+        }
+      ],
+      "forWho": "Inspectors, warehouses and retail chains, producers. Citizens see a product's path via QR.",
+      "basis": "The unified platform and traceability registry under PQ-178, the E-Fito system."
+    },
+    "oshxona": {
+      "name": "AI Kitchen",
+      "card": "Monitors kindergarten and school kitchens through cameras and reports hygiene violations at once.",
+      "lead": "Cameras in kindergarten and school kitchens connect to the system. AI watches hygiene rules: head covering, gloves, raw and cooked food kept apart. When a rule is broken, the person in charge is notified immediately.",
+      "form": {
+        "title": "Kitchen cameras",
+        "submit": "Show",
+        "reset": "Clear",
+        "fields": [
+          {
+            "id": "hudud4",
+            "label": "Region",
+            "type": "select",
+            "options": [
+              "Tashkent city",
+              "Samarkand",
+              "Fergana",
+              "Andijan",
+              "Namangan"
+            ]
+          },
+          {
+            "id": "muassasa",
+            "label": "Institution type",
+            "type": "select",
+            "options": [
+              "All",
+              "Kindergarten",
+              "School"
+            ]
+          },
+          {
+            "id": "holat",
+            "label": "Status",
+            "type": "select",
+            "options": [
+              "All",
+              "Warnings only",
+              "Serious only"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "title": "Tashkent city · today",
+        "badge": "312 kitchens · 14 warnings · 2 serious",
+        "blocks": [
+          {
+            "kind": "live",
+            "title": "School No. 45, Chilanzar · Camera 2",
+            "live": "LIVE",
+            "boxes": [
+              {
+                "level": "green",
+                "label": "Hairnet: OK"
+              },
+              {
+                "level": "green",
+                "label": "Gloves: OK"
+              },
+              {
+                "level": "green",
+                "label": "Hairnet: OK"
+              },
+              {
+                "level": "red",
+                "label": "Gloves: missing"
+              }
+            ]
+          },
+          {
+            "kind": "cameras",
+            "items": [
+              {
+                "level": "green",
+                "label": "Green · live",
+                "title": "Kindergarten No. 112, Yunusabad",
+                "text": "All staff wear head coverings and gloves. No violations in the last 24 hours."
+              },
+              {
+                "level": "amber",
+                "label": "Yellow · live",
+                "title": "School No. 45, Chilanzar",
+                "text": "10:42 — a staff member worked without gloves. The manager was notified; fixed at 10:51."
+              },
+              {
+                "level": "red",
+                "label": "Red · live",
+                "title": "Kindergarten No. 7, Sergeli",
+                "text": "09:15 — raw meat and cooked food on the same table. An inspector was called."
+              },
+              {
+                "level": "green",
+                "label": "Green · live",
+                "title": "School No. 23, Mirzo Ulugbek",
+                "text": "Fridge temperature within limits per sensor (+3°C)."
+              }
+            ]
+          },
+          {
+            "kind": "note",
+            "tone": "blue",
+            "icon": "info",
+            "title": "Children's privacy",
+            "text": "Cameras cover only the kitchen area. Children are not filmed. Footage is kept for 30 days and only inspectors can view it."
+          },
+          {
+            "kind": "note",
+            "tone": "amber",
+            "icon": "info",
+            "title": "Why it matters",
+            "text": "In 2025, 1,940 children were poisoned by food in educational institutions. The system flags violations before anyone gets sick."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "title": "A camera is connected",
+          "text": "Existing cameras connect to the system; no new equipment is needed."
+        },
+        {
+          "title": "The system watches the rules",
+          "text": "Head covering, gloves, raw and cooked food, cleanliness — automatically."
+        },
+        {
+          "title": "Violation — instant alert",
+          "text": "To the kitchen manager and the regional inspector. Serious cases go to the head."
+        }
+      ],
+      "forWho": "Sanitary and epidemiological service, school and kindergarten heads, local administrations.",
+      "basis": "Sanitary rules for catering in educational institutions, the law on personal data."
+    }
+  }
+}

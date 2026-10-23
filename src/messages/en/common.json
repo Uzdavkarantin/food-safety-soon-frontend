@@ -1,0 +1,53 @@
+{
+  "site": {
+    "name": "Committee for Food Safety",
+    "skip": "Skip to main content",
+    "brand": "AI Food Safety",
+    "committee": "Food Safety Committee",
+    "emblemAlt": "Emblem of the Food Safety Committee"
+  },
+  "nav": {
+    "label": "Main menu",
+    "services": "Services",
+    "technologies": "Technologies",
+    "numbers": "Numbers",
+    "journey": "Farm to table",
+    "login": "Sign in",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "notice": {
+    "testMode": "The site is running in test mode",
+    "label": "The site is running in test mode"
+  },
+  "theme": {
+    "toLight": "Light mode",
+    "toDark": "Dark mode"
+  },
+  "locale": {
+    "label": "Language",
+    "uz": "O'zbekcha",
+    "ru": "Русский",
+    "en": "English"
+  },
+  "footer": {
+    "org": "Food Safety Committee of the Republic of Uzbekistan",
+    "portal": "artificial intelligence portal",
+    "hotline": "Hotline: {phone}",
+    "lawsTitle": "AI legislation",
+    "laws": [
+      "PF-189 · AI in government bodies",
+      "PQ-358 · Artificial Intelligence Strategy 2030",
+      "PQ-178 · Food safety system",
+      "CM 581 · Use of AI infrastructure"
+    ],
+    "allLaws": "All documents — lex.uz →",
+    "socialLabel": "Social media",
+    "copyright": "Food Safety Committee"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "Sorry, the page you are looking for does not exist.",
+    "home": "Back to home"
+  }
+}
