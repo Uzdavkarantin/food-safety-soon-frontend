@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "bounce-easing",
+        "value": "bounce",
+        "createdAt": "2026-10-23T15:02:41.483Z",
+        "reason": "design spec: new-design Main.dc.html defines @keyframes bounce (translateY 0→9px, ease-in-out) for the 'Daladan dasturxongacha' scroll-cue arrow; it is a gentle up/down nudge, not bounce/elastic easing"
+      }
+    ]
+  }
+}

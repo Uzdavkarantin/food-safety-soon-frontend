@@ -7,21 +7,26 @@ import {
   getTranslations,
   setRequestLocale,
 } from "next-intl/server";
-import { Lexend, Source_Sans_3 } from "next/font/google";
+import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { locales, siteConfig, type Locale } from "@/config/site";
 import { Providers } from "@/components/Providers";
+import { NoticeBar } from "@/components/NoticeBar";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { CursorGlow } from "@/components/CursorGlow";
 import "../globals.css";
 
-const heading = Lexend({
-  subsets: ["latin"],
+// Plus Jakarta Sans has no basic Cyrillic subset; Russian headings fall back to Inter.
+const heading = Plus_Jakarta_Sans({
+  subsets: ["latin", "latin-ext", "cyrillic-ext"],
+  weight: ["600", "700", "800"],
   variable: "--font-heading",
   display: "swap",
 });
-const body = Source_Sans_3({
-  subsets: ["latin", "cyrillic"],
+const body = Inter({
+  subsets: ["latin", "latin-ext", "cyrillic"],
+  weight: ["400", "500", "600"],
   variable: "--font-body",
   display: "swap",
 });
@@ -41,7 +46,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "hero" });
+  const t = await getTranslations({ locale, namespace: "home.hero" });
   const s = await getTranslations({ locale, namespace: "site" });
 
   const languages = Object.fromEntries(
@@ -52,9 +57,9 @@ export async function generateMetadata({
     metadataBase: new URL(siteConfig.url),
     title: {
       default: s("name"),
-      template: "%s — food-safety.uz",
+      template: "%s — ai.food-safety.uz",
     },
-    description: t("subtitle"),
+    description: t("lead"),
     alternates: {
       canonical: `${siteConfig.url}/${locale}`,
       languages,
@@ -63,7 +68,7 @@ export async function generateMetadata({
       type: "website",
       siteName: s("name"),
       title: s("name"),
-      description: t("subtitle"),
+      description: t("lead"),
       url: `${siteConfig.url}/${locale}`,
       locale,
     },
@@ -102,15 +107,17 @@ export default async function LocaleLayout({ children, params }: Props) {
           <NextIntlClientProvider messages={messages}>
             <a
               href="#main"
-              className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-brand focus:px-4 focus:py-2 focus:text-white"
+              className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-accent focus:px-4 focus:py-2 focus:text-white"
             >
               {t("skip")}
             </a>
+            <NoticeBar />
             <Header />
             <main id="main" className="flex flex-1 flex-col">
               {children}
             </main>
             <Footer />
+            <CursorGlow />
           </NextIntlClientProvider>
         </Providers>
         <script

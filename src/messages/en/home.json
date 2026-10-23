@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "badge": "Government service · Open 24/7",
+    "title": "Artificial intelligence for food safety",
+    "lead": "12 AI services in one portal. Certificates, import and export, laboratory, market oversight and forecasts for farmers. From farm to table.",
+    "ctaServices": "View services",
+    "ctaCabinet": "Sign in to your account",
+    "factHotline": "Hotline {phone}",
+    "factOfficial": "Built on official data",
+    "stats": [
+      {
+        "value": "80,000",
+        "label": "inspected sites"
+      },
+      {
+        "value": "12",
+        "label": "AI services in one portal"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "02 · Services",
+    "title": "12 artificial intelligence services",
+    "lead": "Every service runs on official data. A specialist makes the final decision.",
+    "more": "Learn more →"
+  },
+  "tech": {
+    "eyebrow": "03 · Technologies",
+    "title": "Four core technologies",
+    "lead": "All 12 services run on these four technologies.",
+    "items": [
+      {
+        "title": "Language model",
+        "text": "Answers questions in Uzbek based on laws and regulations."
+      },
+      {
+        "title": "Computer vision",
+        "text": "Understands photos and video: labels, pests, kitchen cameras."
+      },
+      {
+        "title": "Speech to text",
+        "text": "Records calls to 1288 and turns them into text."
+      },
+      {
+        "title": "Model platform",
+        "text": "All models are trained, tested and deployed in one place."
+      }
+    ]
+  },
+  "numbers": {
+    "eyebrow": "04 · Numbers",
+    "title": "Numbers",
+    "items": [
+      {
+        "value": "80,000",
+        "label": "inspected sites",
+        "note": "registered in a single system"
+      },
+      {
+        "value": "1288",
+        "label": "hotline",
+        "note": "answers day and night"
+      },
+      {
+        "value": "UZS 70 bn",
+        "label": "annual savings",
+        "note": "for business"
+      }
+    ]
+  },
+  "journey": {
+    "eyebrow": "05 · Farm to table",
+    "title": "Farm to table — 4 stages",
+    "lead": "AI helps at every stage of a product's journey. Scroll down and the path opens step by step.",
+    "stages": [
+      {
+        "tag": "Field",
+        "title": "The farmer knows before the pests arrive",
+        "text": "Trap and weather data are analysed. The warning reaches the farmer 5–7 days ahead.",
+        "link": "AI Farmer →",
+        "imageAlt": "A cotton and wheat field with a pheromone trap and a weather station"
+      },
+      {
+        "tag": "Laboratory",
+        "title": "Samples are tested and checked against requirements",
+        "text": "The system checks whether pesticide residue is within limits. Results are checked in advance against the destination country's rules.",
+        "link": "AI Export →",
+        "imageAlt": "A lab bench with a flask, test tubes and a microscope"
+      },
+      {
+        "tag": "Border",
+        "title": "One colour per shipment: green, yellow, red",
+        "text": "Safe cargo clears fast. Suspicious cargo is inspected. Inspectors spend their time where the risk is.",
+        "link": "AI Import →",
+        "imageAlt": "A truck at a border checkpoint with a traffic light"
+      },
+      {
+        "tag": "Market",
+        "title": "Dangerous products come off the shelf fast",
+        "text": "Labels are checked from a photo. When an international alert arrives, the recall signal goes out the same day.",
+        "link": "AI Market →",
+        "imageAlt": "A market stall and a phone scanning a QR code on a product"
+      }
+    ],
+    "finale": "The table — safe food"
+  }
+}

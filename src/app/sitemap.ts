@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 import { locales, siteConfig } from "@/config/site";
+import { serviceSlugs } from "@/config/services";
 
-const paths = [""];
+const paths = ["", ...serviceSlugs.map((slug) => `/xizmatlar/${slug}`)];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

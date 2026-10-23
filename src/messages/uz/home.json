@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "badge": "Davlat xizmati · 24/7 ishlaydi",
+    "title": "Oziq-ovqat xavfsizligi uchun sun'iy intellekt",
+    "lead": "12 ta AI xizmati bitta portalda. Sertifikat, import va eksport, laboratoriya, bozor nazorati va fermerlar uchun prognoz. Daladan dasturxongacha.",
+    "ctaServices": "Xizmatlarni ko'rish",
+    "ctaCabinet": "Shaxsiy kabinetga kirish",
+    "factHotline": "Ishonch telefoni {phone}",
+    "factOfficial": "Rasmiy ma'lumotlar asosida ishlaydi",
+    "stats": [
+      {
+        "value": "80 000",
+        "label": "nazorat obyekti"
+      },
+      {
+        "value": "12",
+        "label": "AI xizmati bitta portalda"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "02 · Xizmatlar",
+    "title": "12 ta sun'iy intellekt xizmati",
+    "lead": "Har bir xizmat rasmiy ma'lumotlar asosida ishlaydi. Yakuniy qarorni mutaxassis qabul qiladi.",
+    "more": "Batafsil →"
+  },
+  "tech": {
+    "eyebrow": "03 · Texnologiyalar",
+    "title": "To'rtta asosiy texnologiya",
+    "lead": "Barcha 12 xizmat shu to'rtta texnologiya ustida ishlaydi.",
+    "items": [
+      {
+        "title": "Til modeli",
+        "text": "Qonun va qoidalar asosida o'zbek tilida savolga javob beradi."
+      },
+      {
+        "title": "Kompyuter ko'rishi",
+        "text": "Rasm va videoni tushunadi: yorliq, zararkunanda, oshxona kamerasi."
+      },
+      {
+        "title": "Nutqni matnga aylantirish",
+        "text": "1288 ga qo'ng'iroqlarni yozib oladi va matnga aylantiradi."
+      },
+      {
+        "title": "Model platformasi",
+        "text": "Barcha modellar bir joyda o'qitiladi, sinaladi va ishga tushiriladi."
+      }
+    ]
+  },
+  "numbers": {
+    "eyebrow": "04 · Raqamlar",
+    "title": "Raqamlar",
+    "items": [
+      {
+        "value": "80 000",
+        "label": "nazorat obyekti",
+        "note": "bitta tizimda ro'yxatga olingan"
+      },
+      {
+        "value": "1288",
+        "label": "ishonch telefoni",
+        "note": "kecha-yu kunduz javob beradi"
+      },
+      {
+        "value": "70 mlrd so'm",
+        "label": "yillik tejamkorlik",
+        "note": "biznes uchun"
+      }
+    ]
+  },
+  "journey": {
+    "eyebrow": "05 · Daladan dasturxongacha",
+    "title": "Daladan dasturxongacha — 4 bosqich",
+    "lead": "Mahsulot yo'lining har bir bosqichida sun'iy intellekt yordam beradi. Pastga aylantiring — yo'l bosqichma-bosqich ochiladi.",
+    "stages": [
+      {
+        "tag": "Dala",
+        "title": "Zararkunanda kelguncha fermer biladi",
+        "text": "Tutqich va ob-havo ma'lumoti tahlil qilinadi. Ogohlantirish fermerga 5–7 kun oldin boradi.",
+        "link": "AI Fermer →",
+        "imageAlt": "Paxta va bug'doy dalasi, feromon tutqich va ob-havo stansiyasi"
+      },
+      {
+        "tag": "Laboratoriya",
+        "title": "Namuna tekshiriladi, natija talab bilan solishtiriladi",
+        "text": "Pestitsid qoldig'i chegara ichidami — tizim solishtiradi. Natija chet el talabi bilan oldindan tekshiriladi.",
+        "link": "AI Eksport →",
+        "imageAlt": "Laboratoriya stoli: kolba, probirkalar va mikroskop"
+      },
+      {
+        "tag": "Chegara",
+        "title": "Har partiyaga bitta rang: yashil, sariq, qizil",
+        "text": "Xavfsiz yuk tez o'tadi. Shubhali yuk tekshiriladi. Inspektor vaqtini xavfli joyga sarflaydi.",
+        "link": "AI Import →",
+        "imageAlt": "Chegara postida yuk mashinasi va svetofor"
+      },
+      {
+        "tag": "Bozor",
+        "title": "Xavfli mahsulot peshtaxtadan tez yig'iladi",
+        "text": "Yorliq rasmdan tekshiriladi. Xalqaro ogohlantirish kelsa, qaytarib olish signali o'sha kuni beriladi.",
+        "link": "AI Bozor →",
+        "imageAlt": "Bozor rastasi va mahsulotdagi QR kodni skanerlayotgan telefon"
+      }
+    ],
+    "finale": "Dasturxon — xavfsiz mahsulot"
+  }
+}
